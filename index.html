@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stellar Siege</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas></canvas>
+
+<div id="hud">
+  <div>SCORE: <span id="score-display">0</span></div>
+  <div id="lives-display"></div>
+  <div>
+    WAVE: <span id="wave-display">1</span>
+    &nbsp; BEST: <span id="highscore-display">0</span>
+  </div>
+</div>
+
+<div id="wave-banner"></div>
+
+<div id="overlay">
+  <h1>STELLAR SIEGE</h1>
+  <p>ARROW KEYS &nbsp;—&nbsp; move &nbsp;|&nbsp; SPACE &nbsp;—&nbsp; shoot</p>
+  <p class="hint">
+    Destroy all enemies before they reach you. Survive as long as you can.
+  </p>
+  <button id="startBtn">LAUNCH</button>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
